@@ -13,3 +13,13 @@ nav li:hover {
     color: maroon;
     cursor: alias;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid maroon;
+    padding: 10px 20px;
+}
