@@ -1,3 +1,7 @@
+* {
+    margin-top: 0;
+}
+
 body {
     background-color: beige;
 }
@@ -49,4 +53,28 @@ th {
     width: 150px;
     border: 2px solid tomato;
     background-color: chocolate;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: right;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.navbar li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: lightskyblue;
 }
